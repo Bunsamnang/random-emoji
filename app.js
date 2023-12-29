@@ -74,5 +74,5 @@ const emojis = [
 console.log(emojis.length);
 emoji.addEventListener("mouseover", () => [
   (emoji.innerHTML = emojis[Math.floor(Math.random() * emojis.length)]),
-  console.log(Math.floor(Math.random() * 67)),
+  
 ]);
